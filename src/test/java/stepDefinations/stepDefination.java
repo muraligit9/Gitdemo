@@ -23,14 +23,16 @@ public class stepDefination
     {
        System.out.println(strArg1);
        System.out.println(strArg2);
+       System.out.println(strArg1+"and"+strArg2);
     }
 
     @Then("^home page is populated$")
     public void home_page_is_populated()
     {
       System.out.println("home page is populated");
+      System.out.println("homepage displayed with all required fields");
     }
-
+ 
     @And("^cards displayed is \"([^\"]*)\"$")
     public void cards_displayed_is_something(String strArg1)
     {
