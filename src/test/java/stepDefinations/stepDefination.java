@@ -37,6 +37,7 @@ public class stepDefination
     public void cards_displayed_is_something(String strArg1)
     {
     	System.out.println(strArg1);
+    	System.out.println("cards are displayed: "+strArg1);
     }
 
 }
